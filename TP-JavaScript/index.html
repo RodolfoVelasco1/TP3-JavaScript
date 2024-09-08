@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./public/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TP3 - JavaScript</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <div id = "color">
+      <h2>Párrafos</h2>
+      <p>Primer párrafo.</p>
+      <p>Segundo párrafo.</p>
+      <p>Tercer párrafo.</p>
+      <button id = "cambiarColor" type="button">Cambiar texto a color azul</button>
+    </div>
+      <h2>Formulario con alerta</h2>
+      <form id="formularioAlerta">
+        <label for="mensaje">Escribe un mensaje: </label>
+        <input type="text" name="mensaje" id="mensaje">
+        <button id="mostrarAlerta" type="submit">Mostrar Alerta</button>
+      </form>
+    </div>
+    <div>
+
+    <div>
+      <h2>Lista de elementos</h2>
+      <ul id="lista">
+          <li>Elemento 1</li>
+          <li>Elemento 2</li>
+          <li>Elemento 3</li>
+          <li>Elemento 4</li>
+          <li>Elemento 5</li>
+      </ul>
+    </div>
+
+    <div>
+      <h2>Campo de texto y botones</h2>
+      <input class="campo" type="text" name="campo" id="campo" placeholder="Ingrese su mensaje...">
+      <button id="habilitar" type="button">Habilitar Campo</button>
+      <button id="deshabilitar" type="button">Deshabilitar Campo</button>
+    </div>
+
+    <div>
+      <h2>Formulario de correo electrónico</h2>
+      <form id="formularioCorreo">
+          <label for="email">Correo Electrónico: </label>
+          <input type="text" name="email" id="email" placeholder="ejemplo@gmail.com" required>
+          <button type="submit">Guardar Correo</button>
+      </form>
+      <div id="guardado"></div>
+      <button type="button" id="eliminarCorreo">Eliminar Correo Guardado</button>
+    </div>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
